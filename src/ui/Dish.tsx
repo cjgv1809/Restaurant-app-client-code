@@ -32,7 +32,7 @@ function Dish({ product }: { product: Dish }) {
     >
       <img
         className="object-contain w-full min-h-[235px] rounded-t-lg"
-        src={localProduct.image || "https://via.placeholder.com/300"}
+        src={localProduct.image}
         alt={localProduct.name}
         width={285}
         height={285}
